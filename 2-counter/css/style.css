@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 97.5vh;
+    background-color:whitesmoke ;
+    
+}
+
+.card{
+    border: 10px solid white;
+    padding: 80px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button:hover {
+    background-color: rgb(184, 184, 184);
+    transition: .2s;
+}
+
+button:active {
+    background-color: grey;
+}
