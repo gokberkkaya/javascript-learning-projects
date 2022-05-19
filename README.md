@@ -1,3 +1,5 @@
-# JS Homeworks
+# Javascript Learning Projects
 
-I'm sharing the homeworks I made in the Javascript course of patika.dev 
+I'm doing projects to improve my Javascript skills. So I try to try as many methods as possible.
+
+![languages used](languages.jpg)
