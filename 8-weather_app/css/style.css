@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/rain.jpg);
+    background-position: center;
+}
+
+.title {
+    height: 10vh;
+    font-size: 3rem;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+}
+.search {
+    width: 100%;
+    height: 18vh;
+    display: grid;
+    justify-content: center;
+}
+
+.searchBarDiv {
+    width: 25rem;
+    height: 8vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBarDiv input{
+    border: 1px solid rgba(245, 245, 245, 0.227);
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.389) 0px 1px 25px 1px;
+    padding: 1rem;
+    color:white;
+    font-size: 1rem;
+    width: 22rem;
+    font-family: 'Quantico', sans-serif;
+    backdrop-filter: blur(15px);
+}
+
+.searchBarDiv input:focus{
+    outline: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.649);
+}
+.searchBarDiv img {
+    position: absolute;
+    z-index: 10;
+    top:12.5rem;
+    left: 57rem;
+}
+
+.content {
+    justify-content: center;
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 35% 65%;
+}
+
+.cover {
+    border: 1px solid rgba(245, 245, 245, 0.227);
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+    height: 40vh;
+    width: 25rem;
+    padding: 3rem;
+    background-color:rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.389) 0px 1px 25px 1px;
+    backdrop-filter: blur(15px);
+}
+
+.city {
+    margin-top: 3vh;
+    margin-bottom: 8vh;
+    font-size: 2rem;
+}
+
+.temp {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
